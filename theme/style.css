@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
 :root {
-  --color-main: #71c6dd;
+  --color-main: #1898bbca;
   --color-main-light: #e1f6fb;
-  --color-dark: #3f4156;
-  --color-dark-medium: #51546e;
+  --color-dark: #1d2472;
+  --color-dark-medium: #3546e8;
   --color-dark-light: #696d97;
   --color-light: #e5e5e5;
-  --color-gray: #8b8b8b;
+  --color-gray: #d07272;
   --color-light-gray: #b2bdbd;
   --color-bg: #2d2d39;
   --color-success: #5dd693;
-  --color-error: #fc4b0b;
+  --color-error: #e23c00;
 }
 
 /*========== base styles ==========*/
@@ -215,7 +215,7 @@ a {
   right: 0.5rem;
   background: var(--color-dark-light);
   border-radius: 5px;
-  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 1px 3px 1px rgba(11, 181, 11, 0.363);
   overflow: hidden;
   display: none;
 }
@@ -431,7 +431,7 @@ a {
   transform: translate(-50%, -46%);
   background-color: var(--color-dark);
   border-radius: 1rem;
-  box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 6px 3px rgba(45, 241, 215, 0.1);
   overflow: hidden;
 }
 
